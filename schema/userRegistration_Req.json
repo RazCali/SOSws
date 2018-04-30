@@ -1,0 +1,24 @@
+{
+    "properties": {
+        "emailAddress": {
+            "format": "email",
+            "type": "string"
+        },
+        "firstName": {
+            "type": "string"
+        },
+        "lastName": {
+            "type": "string"
+        },
+        "password": {
+            "type": "string"
+        }
+    },
+    "required": [
+        "firstName",
+        "lastName",
+        "emailAddress",
+        "password"
+    ],
+    "type": "object"
+}
