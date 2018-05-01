@@ -1,0 +1,33 @@
+2018-05-01 03:02:01,689 - __main__ - ERROR - User Registration request failed. Reason: E11000 duplicate key error collection: Test.users index: unqEmailAddress dup key: { : "gigel2@gmail.com" }
+2018-05-01 03:02:29,904 - __main__ - ERROR - User Registration request failed. Reason: E11000 duplicate key error collection: Test.users index: unqEmailAddress dup key: { : "gigel2@gmail.com" }
+2018-05-01 03:04:09,525 - __main__ - INFO - Logger started
+2018-05-01 03:04:09,525 - __main__ - INFO - Establishing MongoDB connection on localhost:27017/Test
+2018-05-01 03:04:09,526 - __main__ - INFO - MongoDB connection established
+2018-05-01 03:04:09,526 - __main__ - INFO - Loading Web Service Request Schemas
+2018-05-01 03:04:09,532 - __main__ - INFO - Schema: userRegistrationSchema loaded
+2018-05-01 03:04:09,532 - __main__ - INFO -  Web Service Request Schemas loaded
+2018-05-01 03:04:14,154 - __main__ - INFO - userRegistration Request received
+2018-05-01 03:04:14,156 - __main__ - INFO - Request successfully validated
+2018-05-01 03:04:14,156 - __main__ - INFO - userRegistration Request password hashed using SHA256
+2018-05-01 03:04:14,158 - __main__ - INFO - {'errDesc': 'E11000 duplicate key error collection: Test.users index: unqEmailAddress dup key: { : "gigel2@gmail.com" }', 'errCode': -2}
+2018-05-01 03:04:14,158 - __main__ - ERROR - User Registration request failed. Reason: E11000 duplicate key error collection: Test.users index: unqEmailAddress dup key: { : "gigel2@gmail.com" }
+2018-05-01 03:04:32,632 - __main__ - INFO - Logger started
+2018-05-01 03:04:32,632 - __main__ - INFO - Establishing MongoDB connection on localhost:27017/Test
+2018-05-01 03:04:32,633 - __main__ - INFO - MongoDB connection established
+2018-05-01 03:04:32,633 - __main__ - INFO - Loading Web Service Request Schemas
+2018-05-01 03:04:32,641 - __main__ - INFO - Schema: userRegistrationSchema loaded
+2018-05-01 03:04:32,641 - __main__ - INFO -  Web Service Request Schemas loaded
+2018-05-01 03:04:42,711 - __main__ - INFO - userRegistration Request received
+2018-05-01 03:04:42,713 - __main__ - INFO - Request successfully validated
+2018-05-01 03:04:42,713 - __main__ - INFO - userRegistration Request password hashed using SHA256
+2018-05-01 03:04:42,714 - __main__ - ERROR - User Registration request failed. Reason: E11000 duplicate key error collection: Test.users index: unqEmailAddress dup key: { : "gigel2@gmail.com" }
+2018-05-01 03:05:33,400 - __main__ - INFO - Logger started
+2018-05-01 03:05:33,400 - __main__ - INFO - Establishing MongoDB connection on localhost:27017/Test
+2018-05-01 03:05:33,401 - __main__ - INFO - MongoDB connection established
+2018-05-01 03:05:33,401 - __main__ - INFO - Loading Web Service Request Schemas
+2018-05-01 03:05:33,405 - __main__ - INFO - Schema: userRegistrationSchema loaded
+2018-05-01 03:05:33,405 - __main__ - INFO -  Web Service Request Schemas loaded
+2018-05-01 03:05:42,379 - __main__ - INFO - userRegistration Request received
+2018-05-01 03:05:42,381 - __main__ - INFO - Request successfully validated
+2018-05-01 03:05:42,381 - __main__ - INFO - userRegistration Request password hashed using SHA256
+2018-05-01 03:05:42,383 - __main__ - ERROR - User Registration request failed. Reason: E11000 duplicate key error collection: Test.users index: unqEmailAddress dup key: { : "gigel2@gmail.com" }

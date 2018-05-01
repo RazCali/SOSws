@@ -1,4 +1,6 @@
-{
+{"schemaName": "userRegistrationSchema",
+"schemaDescription": "To be used when handling User Registration Requests",
+"schema": {
     "properties": {
         "emailAddress": {
             "format": "email",
@@ -21,4 +23,5 @@
         "password"
     ],
     "type": "object"
+}
 }
