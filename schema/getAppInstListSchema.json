@@ -1,0 +1,20 @@
+{
+    "schema": {
+        "additionalProperties": false,
+        "properties": {
+            "searchMask": {
+                "type": "string"
+            },
+            "sessionId": {
+                "type": "string"
+            }
+        },
+        "required": [
+            "sessionId"
+        ],
+
+        "type": "object"
+    },
+    "schemaDescription": "To be used when trying to retrieve the list of available Application Instances",
+    "schemaName": "getAppInstListSchema"
+}

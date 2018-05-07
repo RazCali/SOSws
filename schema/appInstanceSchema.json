@@ -1,0 +1,45 @@
+{
+    "aclMatrix": {
+        "HeapAdmin": [
+            "AppManager"
+        ]
+    },
+    "schema": {
+        "additionalProperties": false,
+        "properties": {
+            "description": {
+                "type": "string"
+            },
+            "name": {
+                "type": "string"
+            },
+            "userManagementWS_hostname": {
+                "type": "string"
+            },
+            "userManagementWS_loginURL": {
+                "type": "string"
+            },
+            "userManagementWS_logoutURL": {
+                "type": "string"
+            },
+            "userManagementWS_port": {
+                "type": "int"
+            },
+            "userManagementWS_userRegistrationURL": {
+                "type": "string"
+            }
+        },
+        "required": [
+            "name",
+            "description",
+            "userManagementWS_hostname",
+            "userManagementWS_port",
+            "userManagementWS_loginURL",
+            "userManagementWS_userRegistrationURL",
+            "userManagementWS_logoutURL"
+        ],
+        "type": "object"
+    },
+    "schemaDescription": "To be used when handling application instance addition",
+    "schemaName": "appInstanceSchema"
+}

@@ -1,0 +1,9 @@
+{
+	"name": "Coafor1",
+	"description": "Settings for Coafor1",
+	"userManagementWS_hostname": "localhost",
+	"userManagementWS_port": 5001,
+	"userManagementWS_loginURL": "/user/login",
+	"userManagementWS_userRegistrationURL": "/user/register",
+	"userManagementWS_logoutURL": "/user/logout"
+}

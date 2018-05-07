@@ -30,10 +30,12 @@ class dbJSON:
 
     def save(self,dbDBName,dbCollName):
         self.body['creationDate'] = datetime.datetime.now()
-        users = dbDBName[dbCollName]
+        objects = dbDBName[dbCollName]
+
+        del self.body['authHeader']
 
         try:
-            user_id = users.insert_one(self.body).inserted_id
+            user_id = objects.insert_one(self.body).inserted_id
             rsp = {'errCode': 0, 'ObjectId': str(user_id)}
 
         except pymongo.errors.DuplicateKeyError as me:

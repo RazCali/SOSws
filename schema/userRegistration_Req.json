@@ -1,27 +1,40 @@
-{"schemaName": "userRegistrationSchema",
-"schemaDescription": "To be used when handling User Registration Requests",
-"schema": {
-    "properties": {
-        "emailAddress": {
-            "format": "email",
-            "type": "string"
-        },
-        "firstName": {
-            "type": "string"
-        },
-        "lastName": {
-            "type": "string"
-        },
-        "password": {
-            "type": "string"
-        }
+{
+    "aclMatrix": {
+        "anonymous": ["AppUser"],
+        "AppManager": ["AppResource"],
+        "HeapAdmin": ["AppManager"]
     },
-    "required": [
-        "firstName",
-        "lastName",
-        "emailAddress",
-        "password"
-    ],
-    "type": "object"
-}
+    "schema": {
+        "additionalProperties": false,
+        "properties": {
+            "authToken": {
+                "type": "string"
+            },
+            "emailAddress": {
+                "format": "email",
+                "type": "string"
+            },
+            "name": {
+                "type": "string"
+            },
+            "password": {
+                "type": "string"
+            },
+            "sessionId": {
+                "type": "string"
+            },
+            "userId": {
+                "type": "string"
+            }
+        },
+        "required": [
+            "name",
+            "emailAddress",
+            "password",
+            "sessionId"
+        ],
+        "type": "object"
+    },
+    "schemaDescription": "To be used when handling User Registration Requests",
+    "schemaName": "userRegistrationSchema"
 }

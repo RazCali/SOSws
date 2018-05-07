@@ -1,0 +1,5 @@
+{
+	"name": "AppUser",
+	"description": "This role will be used by the End-user which will like to schedule an event with specific resources, services and timelines associated.",
+	"default": 1
+}
